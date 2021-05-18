@@ -5,3 +5,4 @@ __pycache__/
 *.jpg
 *.pdf
 .vscode/
+.ipynb_checkpoints/
