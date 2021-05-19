@@ -12,7 +12,7 @@ def postprocessing(X, y):
     except:
         pass
     X = X.to_numpy()
-    y = np.array([i[0] for i in y])
+    y = np.ravel(y)
     return X, y
 
 
